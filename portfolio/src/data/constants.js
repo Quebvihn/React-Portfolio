@@ -10,10 +10,9 @@ export const Bio = {
     github: "https://github.com/quebvihn",
     resume:
       "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-    linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    twitter: "https://twitter.com/RishavChanda",
-    insta: "https://www.instagram.com/rishav_chanda/",
-    facebook: "https://www.facebook.com/rishav.chanda.165/",
+    linkedin: "https://www.linkedin.com/in/bruno-medina-a467a1236/",
+    twitter: "https://twitter.com/BAMedina2",
+    insta: "https://instagram.com/brunomdna?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
   };
   
   export const skills = [
@@ -280,10 +279,3 @@ export const Bio = {
     },
   ];
   
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
-  ];
