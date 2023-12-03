@@ -86,31 +86,32 @@ const ButtonContaniner = styled.div`
     width: 80px;
     height: 100%;
     padding: 0 6px;
-    @media screen and (max-width: 640px){
+    @media screen and (max-width: 768px){
         display: none;
     }
 `;
 
-const GithubButton = styled.button`
-    background-color: transparent;
-    color: ${({theme}) => theme.primary};
-    border: 1.8px solid ${({theme}) => theme.primary};
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    height: 70%;
-    :hover{
-        background-color: ${({theme}) => theme.primary};
-        color: ${({theme}) => theme.white};
+const GithubButton = styled.a`
+  border: 1.8px solid ${({ theme }) => theme.primary};
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 70%;
+  border-radius: 20px;
+  color: ${({ theme }) => theme.primary};
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.6s ease-in-out;
+    :hover {
+      background: ${({ theme }) => theme.primary};
+      color: ${({ theme }) => theme.white};     
     }
-    @media screen and (max-width: 640px){
-        font-size: 0.8rem;} 
-
+    @media screen and (max-width: 768px) { 
+    font-size: 14px;
+    }
 `;
 
  export const Span = styled.span`
@@ -158,12 +159,11 @@ const Navbar = () => {
     return (
     <Nav>
         <NavContainer>
-            <NavLogo to= "/">
-            <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+        <NavLogo to='/'>
+          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
           </a>
-            
-            </NavLogo>
+        </NavLogo>
             <MobileIcon>
           <FaBars onClick={() => {
             setOpen(!open)
@@ -177,7 +177,7 @@ const Navbar = () => {
                 <NavLink href='#contact'>Contact</NavLink>
             </NavItems>
             <ButtonContaniner>
-                <GithubButton href ={Bio.github} target="display">Github</GithubButton>
+                <GithubButton href={Bio.github} target="_blank">GitHub</GithubButton>
             </ButtonContaniner>
         </NavContainer>
         {
@@ -198,7 +198,7 @@ const Navbar = () => {
             <MobileMenuLink href='#contact' onClick={() => {
               setOpen(!open)
             }}>Contact</MobileMenuLink>
-            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="/" target="_blank">Github Profile</GithubButton>
+            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">GitHub</GithubButton>
           </MobileMenu>
         }
     </Nav>
