@@ -73,8 +73,45 @@ margin-top: 20px;
     // }
 `;
 
+export const ToggleButtonGroup = styled.div`
+    display: flex;
+    border: 1.5px solid ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.primary};
+    font-size: 16px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin: 22px 0px;
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
+`
+
+export const ToggleButton = styled.div`
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    ${({ active, theme }) =>
+        active && `
+    background: ${theme.primary + 20};
+    `
+    }
+    &:hover {
+        background: ${({ theme }) => theme.primary + 8};
+    }
+    @media (max-width: 768px) {
+        padding: 6px 8px;
+        border-radius: 4px;
+    }
+`
+export const Divider = styled.div`
+    width: 1.5px;
+    background: ${({ theme }) => theme.primary};
+
+
+`;
+
 const Projects = ({ openModal, setOpenModal }) => {
-    const [toggle,] = useState('all'); 
+    const [toggle, setToggle] = useState('all'); 
     return (
       <Container id="projects">
         <Wrapper>
@@ -82,7 +119,25 @@ const Projects = ({ openModal, setOpenModal }) => {
           <Desc>
             I have worked on a wide range of projects. Here are some examples.
           </Desc>
-          
+          <ToggleButtonGroup >
+          {toggle === 'all' ?
+            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            :
+            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'web app' ?
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            :
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'backend' ?
+            <ToggleButton active value="backend" onClick={() => setToggle('backend')}>BACKEND DATABASE</ToggleButton>
+            :
+            <ToggleButton value="backend" onClick={() => setToggle('backend')}>BACKEND DATABASE</ToggleButton>
+          }
+        </ToggleButtonGroup>
           <CardContainer>
             {toggle === 'all' && projects
               .map((project) => (

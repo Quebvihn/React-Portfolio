@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Hero from './components/HeroSection/Index';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Projects from './components/Projects';
+import Education from "./components/Education";
 
 const Body = styled.div`
 background-color: ${({ theme }) => theme.bg};
@@ -32,6 +33,9 @@ function App() {
           <Skills />
         </Wrapper>
         <Projects />
+        <Wrapper>
+            <Education />
+          </Wrapper>
       </Body>
       </Router>
     </ThemeProvider>
