@@ -1,11 +1,12 @@
 import './App.css';
 import styled, {ThemeProvider} from'styled-components';
+
 import { darkTheme } from './utils/theme';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Hero from './components/HeroSection/Index';
-import Education from './components/Educaction';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Projects from './components/Projects';
 
 const Body = styled.div`
 background-color: ${({ theme }) => theme.bg};
@@ -29,8 +30,8 @@ function App() {
         <Hero />
         <Wrapper>
           <Skills />
-          <Education />
         </Wrapper>
+        <Projects />
       </Body>
       </Router>
     </ThemeProvider>
