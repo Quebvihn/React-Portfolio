@@ -171,7 +171,6 @@ const Navbar = () => {
             <NavItems>
                 <NavLink href="#about">About</NavLink>
                 <NavLink href='#skills'>Skills</NavLink>
-                <NavLink href='#experience'>Experience</NavLink>
                 <NavLink href='#projects'>Projects</NavLink>
                 <NavLink href='#education'>Education</NavLink>
             </NavItems>
@@ -188,9 +187,6 @@ const Navbar = () => {
             <MobileMenuLink href='#skills' onClick={() => {
               setOpen(!open)
             }}>Skills</MobileMenuLink>
-            <MobileMenuLink href='#experience' onClick={() => {
-              setOpen(!open)
-            }}>Experience</MobileMenuLink>
             <MobileMenuLink href='#projects' onClick={() => {
               setOpen(!open)
             }}>Projects</MobileMenuLink>
