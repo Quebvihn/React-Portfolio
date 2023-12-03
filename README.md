@@ -22,6 +22,8 @@ Welcome to my React Portfolio! This project is a showcase of my skills and proje
 - [Deployment](#deployment-1)
 - [Acknowledgments](#acknowledgments)
 
+![Alt text](image.png)
+
 ## Introduction
 
 As a passionate web developer, I've created this React Portfolio to provide a seamless and informative experience for anyone interested in exploring my work. This portfolio reflects my dedication to staying current with the latest technologies while showcasing the projects that define my skill set.
