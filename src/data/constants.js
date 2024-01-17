@@ -2,14 +2,14 @@ export const Bio = {
     name: "Bruno Medina",
     roles: [
       "Full Stack Developer",
-      "Web Developer",
+      "Software Developer",
       "Programmer",
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/quebvihn",
     resume:
-      "https://docs.google.com/document/d/1NonAfp7EoqrKus79mFgJ8GIKeuBbGQc9/edit?usp=sharing&ouid=105366282623813196956&rtpof=true&sd=true",
+      "https://docs.google.com/document/d/1OZdLOHOD3GEUwlB5z0gH5FuH0k1v4Vxf/edit?usp=sharing&ouid=105366282623813196956&rtpof=true&sd=true",
     linkedin: "https://www.linkedin.com/in/bruno-medina-a467a1236/",
     twitter: "https://twitter.com/BAMedina2",
     insta: "https://instagram.com/brunomdna?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
@@ -81,7 +81,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
         },
         {
           name: "GitHub",
@@ -96,7 +96,7 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://cdn.worldvectorlogo.com/logos/postman.svg",
         },
         {
           name: "DBeaver",
@@ -117,6 +117,7 @@ export const Bio = {
       id: 0,
       img: "data:image/png;base64,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",
       school: "University of Central Florida, Orlando",
+      grade: "95.56%",
       date: "September 2023 - December 2023",
       desc: "Dynamic and results-oriented Full Stack Web Development Bootcamp graduate with comprehensive training in front-end and back-end technologies. Proficient in HTML5, CSS3, and JavaScript, including the use of popular front-end frameworks like React.js to create intuitive and visually appealing user interfaces. Solid understanding of server-side development using Node.js and Express.js, with hands-on experience in database management using MongoDB and SQL. Skilled in version control with Git and GitHub, and capable of designing and implementing RESTful APIs for seamless communication between the front-end and back-end. Equipped with knowledge in deploying applications on cloud platforms such as Heroku, and experienced in Agile methodologies for efficient project management. Adept at collaborating with cross-functional teams, passionate about creating responsive and user-centric digital solutions.",
       degree: "Full Stack Web Development, Coding Bootcamp",
@@ -124,6 +125,57 @@ export const Bio = {
   ];
   
   export const projects = [
+    
+    {
+      id: 0,
+      title: "Pet Connect",
+      date: "November 2023",
+      description:
+        "Welcome to the Pet Rescue Hub, where compassion meets companionship. Our website is a dedicated platform committed to connecting loving families with adoptable pets in need of a forever home. We believe in the power of adoption and the profound impact it can have on both the lives of animals and their human companions. By choosing to adopt, you not only gain a loyal companion but also contribute to creating a world where every pet has a loving home.",
+      image:
+        "https://github.com/AlexLenson/PetConnect/raw/main/assets/images/pet_connect_deployed.png",
+      tags: ["NodeJs", "Express JS", "Handlebars Js", "MySQL", "Sequelize","Heroku", "JavaScript"],
+      github: "https://github.com/AlexLenson/PetConnect",
+      category: "web app",
+      webapp: "https://pet-connect-1eeb45c85753.herokuapp.com/",
+      member: [
+        {
+          name: "Kathryn Dougherty",
+          img: "https://avatars.githubusercontent.com/u/141696855?v=4",
+          github: "https://github.com/kathrynfisher3700",
+        },
+        {
+          name: "Alex Lenson",
+          img: "https://avatars.githubusercontent.com/u/144947695?v=4",
+          github: "https://github.com/AlexLenson",
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "Chem Chicken",
+      date: "December 2023",
+      description:
+        "The Note Taker Application is a web-based tool that allows users to create, save, and manage notes. It provides a simple and intuitive interface for taking and organizing notes. The application is built using Express.js for the backend and allows users to save notes, view existing notes, and delete notes as needed.",
+      image:
+        "https://github.com/Hubbard1118/chemChicken/raw/main/client/public/landing.png",
+      tags: ["Node Js", "Express Js", "JavaScript", "Heroku", "HTML", "CSS"],
+      github: "https://github.com/Hubbard1118/chemChicken",
+      category: "web app",
+      webapp: "https://chem-chicken.onrender.com/home",
+      member: [
+        {
+          name: "Yasin Hubbard",
+          img: "https://avatars.githubusercontent.com/u/145360277?v=4",
+          github: "https://github.com/Hubbard1118",
+        },
+        {
+          name: "Frieda Fry",
+          img: "https://avatars.githubusercontent.com/u/144087831?v=4",
+          github: "https://github.com/FriedaHF",
+        },
+      ],
+    },
     {
       id: 9,
       title: "!gateKeep",
@@ -131,7 +183,7 @@ export const Bio = {
       description:
         "Ever hear a snippet of a song on TikTok and go to search it on Spotify and its nowhere to be found?!Gatekeep is here to soplve your problem! !Gatekeep removes this headache by giving you a list of unrealeased music by your top artist that are no discoverable on Spotify. No more gatekeeping!",
       image:
-        "https://private-user-images.githubusercontent.com/144052327/274640610-ea116b73-7a87-42c4-9659-f6dbd71111e4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3MTY4NDIsIm5iZiI6MTcwMTcxNjU0MiwicGF0aCI6Ii8xNDQwNTIzMjcvMjc0NjQwNjEwLWVhMTE2YjczLTdhODctNDJjNC05NjU5LWY2ZGJkNzExMTFlNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwNFQxOTAyMjJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YWRkY2Q0NmQ3ZjRmZjJkM2M2MjIwNzZiODlhYzNjNTJiY2MwMmQzNjZkYzgxMjI3MWJkMWYwYWFjYTQxNzA2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iD9wKBrf2ninHjm4Yx-oTliflt840BaFPfCoIaqHJkk",
+        "https://github.com/Narvinator/-Gatekeep/assets/144052327/ea116b73-7a87-42c4-9659-f6dbd71111e4",
       tags: [
         "HTML",
         "CSS",
@@ -153,31 +205,6 @@ export const Bio = {
           name: "Narvin Blas",
           img: "https://avatars.githubusercontent.com/u/144052327?v=4",
           github: "https://github.com/Narvinator",
-        },
-      ],
-    },
-    {
-      id: 0,
-      title: "Pet Connect",
-      date: "Novemeber 2023",
-      description:
-        "Welcome to the Pet Rescue Hub, where compassion meets companionship. Our website is a dedicated platform committed to connecting loving families with adoptable pets in need of a forever home. We believe in the power of adoption and the profound impact it can have on both the lives of animals and their human companions. By choosing to adopt, you not only gain a loyal companion but also contribute to creating a world where every pet has a loving home.",
-      image:
-        "https://github.com/AlexLenson/PetConnect/raw/main/assets/images/pet_connect_deployed.png",
-      tags: ["Node Js", "Express JS", "Handlebars Js", "MySQL", "Sequelize","Heroku", "JavaScript"],
-      github: "https://github.com/AlexLenson/PetConnect",
-      category: "web app",
-      webapp: "https://pet-connect-1eeb45c85753.herokuapp.com/",
-      member: [
-        {
-          name: "Kathryn Dougherty (Fisher)",
-          img: "https://avatars.githubusercontent.com/u/141696855?v=4",
-          github: "https://github.com/kathrynfisher3700",
-        },
-        {
-          name: "Alex Lenson",
-          img: "https://avatars.githubusercontent.com/u/144947695?v=4",
-          github: "https://github.com/AlexLenson",
         },
       ],
     },
@@ -220,7 +247,7 @@ export const Bio = {
       description:
         "Object-Relational Mapping (ORM) implementation for an E-commerce Back End. An ORM is a programming technique that allows developers to interact with a relational database using object-oriented programming concepts. In this challenge, we've created a back end for an E-commerce application, which includes models, routes, and a database that showcases the power of ORM in simplifying database interactions.",
       image:
-        "https://camo.githubusercontent.com/ee658025ecaa97b0b7b7c8d492f6ad7b384d080aecf56b0f23cd71373a9cfa38/68747470733a2f2f646265617665722e696f2f70726f647563742f646265617665722d73732d6461726b2d6e65772e706e67",
+        "https://miro.medium.com/v2/resize:fit:866/1*uDcbBdzCQmZJZOgadHtQ3g.png",
       category: "backend",
       tags: ["Node Js", "Express Js", "MySQL", "Sequelize", "Insomnia", "JavaScript"],
       github: "https://github.com/Quebvihn/ORM_eCommerceBackEnd",
@@ -237,19 +264,6 @@ export const Bio = {
       tags: ["JavaScript", "Node Js", "MySQL", "Inquirer", "CLI"],
       category: "backend",
       github: "https://github.com/Quebvihn/employees-t",
-    },
-    {
-      id: 4,
-      title: "Note Taker Website",
-      date: "October 2023",
-      description:
-        "The Note Taker Application is a web-based tool that allows users to create, save, and manage notes. It provides a simple and intuitive interface for taking and organizing notes. The application is built using Express.js for the backend and allows users to save notes, view existing notes, and delete notes as needed.",
-      image:
-        "https://private-user-images.githubusercontent.com/92743791/287493306-065e4edc-067f-49de-b3a4-e4c4c71e5be4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE1NzAyOTAsIm5iZiI6MTcwMTU2OTk5MCwicGF0aCI6Ii85Mjc0Mzc5MS8yODc0OTMzMDYtMDY1ZTRlZGMtMDY3Zi00OWRlLWIzYTQtZTRjNGM3MWU1YmU0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjAzVDAyMTk1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlkOGUxM2U4YzlkNzUyNmNhZjFhZDk1YmFhMTcxOWY4YzA1NmMxMjkzZjA4YjEyYWMxYmIyNDg3OTQxMjljMjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.a-Kq68FzokO8W0ZkAlRT9yO42oJRKgy0XlOrRYrHJmA",
-      tags: ["Node Js", "Express Js", "JavaScript", "Heroku", "HTML", "CSS"],
-      github: "https://github.com/Quebvihn/notes",
-      category: "web app",
-      webapp: "https://fast-cove-44208-6271ec0465b3.herokuapp.com/notes",
     },
     {
       id: 5,

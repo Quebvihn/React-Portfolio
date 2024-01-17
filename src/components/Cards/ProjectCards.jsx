@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const Button = styled.button`
     display: none;
     width: 100%;
-    padding: 10px;
+    padding: 4%;
     background-color: ${({ theme }) => theme.white};
     color: ${({ theme }) => theme.text_black};
     font-size: 14px;
@@ -16,8 +16,8 @@ const Button = styled.button`
     transition: all 0.8s ease-in-out;
 `
 const Card = styled.div`
-    width: 330px;
-    height: 490px;
+    width: 350px;
+    height: 550px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
